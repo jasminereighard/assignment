@@ -2,29 +2,34 @@
 title: "Assignment"
 author: "Jasmine Reighard"
 date: "2023-08-21"
-output: html_document
+output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r}
+library(raster)
+library(habtools)
+library(ggplot2)
+library(dplyr)
+library(fishualize)
+
+plot(horseshoe)
 ```
+## About me
 
-## R Markdown
+### Current lab
+Johansen Fish Resillience Lab
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+### Project focus
+The effects of sedimentation on herbivorous reef fish
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+### Why you chose this course
+I wanted to broaden my technical skills and stay relevant with my coding knowledge
 
-```{r cars}
-summary(cars)
-```
+### What do you want to learn about the most in this course
+I am pretty unfamiliar with what technologies we will be learning, so I'm just excited to become familiar with new software and maybe apply it to my graduate research!
 
-## Including Plots
+### Your R experience
+Intermediate. I've taken two courses in R for statistics so my codebank is pretty basic but useful. 
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+### Fun fact
+I fell in love with Pacific spiny lumpsuckers this summer at Friday Harbor Laboratories. I really want to have an emotional support tank of them at home or HIMB. (Side note: They can only survive in cold water environments so there isn't really a chance for them to become an invasive species if for some reason they got loose.)
